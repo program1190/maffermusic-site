@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eurorack for Beginners: How to Build Your First Modular Synth System</title>
+  <meta name="description" content="A practical guide to starting your first Eurorack modular synthesizer system. Covers essential module types, budgeting, rack selection, and a recommended starter build.">
+  <meta name="keywords" content="eurorack for beginners, first modular synth, how to start eurorack, beginner modular synthesizer, eurorack starter system, modular synth guide">
+  <link rel="canonical" href="https://maffermusic.com/modular/eurorack-for-beginners.html">
+
+  <meta property="og:title" content="Eurorack for Beginners: How to Build Your First Modular Synth System">
+  <meta property="og:description" content="Practical guide to starting your first Eurorack system — essential modules, budgeting, and a recommended starter build.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://maffermusic.com/modular/eurorack-for-beginners.html">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Eurorack for Beginners: How to Build Your First Modular Synth System",
+    "description": "A practical guide to building your first Eurorack modular synthesizer system, covering essential module types, budgeting, rack selection, and starter builds.",
+    "author": { "@type": "Person", "name": "Maffer Music" },
+    "publisher": { "@type": "Organization", "name": "Maffer Music", "url": "https://maffermusic.com" },
+    "datePublished": "2026-03-23",
+    "dateModified": "2026-03-23",
+    "mainEntityOfPage": "https://maffermusic.com/modular/eurorack-for-beginners.html"
+  }
+  </script>
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<article class="blog-post">
+
+  <header class="blog-post__header">
+    <p class="blog-post__meta">📅 March 2026 · 15 min read · <span class="tag">Modular</span> <span class="tag">Beginner</span> <span class="tag">Eurorack</span></p>
+    <h1>Eurorack for Beginners: How to Build Your First Modular Synth System</h1>
+    <p class="blog-post__intro">Eurorack modular synthesis is one of the most rewarding — and most intimidating — ways to make electronic music. The format offers unlimited sonic possibilities, but the sheer number of modules, manufacturers, and configuration choices can paralyze a beginner before they ever patch a cable. This guide cuts through the noise and gives you a practical path to building your first working system.</p>
+  </header>
+
+  <section>
+    <h2>What Eurorack Actually Is</h2>
+    <p>Eurorack is a standardized format for modular synthesizer modules. Each module is a single functional unit — an oscillator, a filter, an envelope generator, a sequencer — housed in a standard-width panel that mounts in a powered rack case. You connect modules together using 3.5mm patch cables, building a signal path from scratch every time you sit down to play.</p>
+    <p>The format was created by Dieter Döpfer in 1995 and has since become the dominant modular synth standard, with over 15,000 modules available from hundreds of manufacturers. Modules share a standard power connector, a standard panel height (3U, or 128.5mm), and width measured in HP (horizontal pitch, where 1 HP equals 5.08mm).</p>
+    <p>Unlike a conventional synthesizer — where the oscillators, filters, envelopes, and effects are pre-wired internally — a Eurorack system has no fixed signal path. This is both its power and its challenge. You decide what connects to what, which means you can create sounds and behaviors that no pre-built synthesizer can replicate. It also means you need to understand the basics of synthesis before you'll get anything useful out of it.</p>
+  </section>
+
+  <section>
+    <h2>The Essential Module Types</h2>
+    <p>Every functional modular synth voice needs at least these five building blocks. Think of them as the minimum viable system:</p>
+
+    <h3>1. Oscillator (VCO)</h3>
+    <p>The oscillator generates the raw sound — the tone that everything else shapes. It produces basic waveforms (sine, saw, square, triangle) at a pitch controlled by voltage. Without an oscillator, you have no sound source. Most beginners start with one, then quickly want two for richer textures.</p>
+    <p>Recommended starter oscillators: Plaits by Mutable Instruments (incredibly versatile, multiple synthesis modes in one module), Doepfer A-110-1 (simple, affordable, teaches you the fundamentals).</p>
+
+    <h3>2. Filter (VCF)</h3>
+    <p>The filter removes frequencies from the oscillator's output, sculpting the raw waveform into something musical. A low-pass filter (the most common type) removes high frequencies, darkening the sound. Sweeping the filter's cutoff frequency while a note plays is the signature sound of subtractive synthesis.</p>
+    <p>Recommended: Doepfer A-106-5 (clean, flexible, affordable), Ripples by Mutable Instruments (musical character with built-in VCA).</p>
+
+    <h3>3. Envelope Generator (EG)</h3>
+    <p>An envelope generates a control voltage shape — typically an Attack-Decay-Sustain-Release (ADSR) curve — that you patch into other modules to create movement over time. Patch an envelope into your filter's cutoff and the brightness of your sound will swell and fade with each note. Patch it into your VCA and it controls the volume contour.</p>
+    <p>Recommended: Doepfer A-140-1 ADSR (straightforward, inexpensive), Pip Slope by Noise Engineering (compact, dual-function).</p>
+
+    <h3>4. Amplifier (VCA)</h3>
+    <p>The VCA controls the volume of your signal based on an incoming control voltage. Without a VCA controlled by an envelope, your oscillator just drones continuously. The VCA is what turns a drone into a note — it opens when you trigger the envelope and closes when the envelope completes.</p>
+    <p>You can never have too many VCAs. This is the most repeated piece of advice in the modular community, and it's correct. VCAs are useful far beyond basic volume control — they modulate anything with anything.</p>
+    <p>Recommended: Doepfer A-132-3 (simple, dual VCA), Veils by Mutable Instruments (four VCAs in one module, each with adjustable response curve).</p>
+
+    <h3>5. Sequencer or Keyboard Controller</h3>
+    <p>Something needs to tell your oscillator what note to play and when. A sequencer generates a repeating pattern of voltages (pitch) and triggers (note events). A MIDI-to-CV module lets you play your modular from a standard MIDI keyboard or DAW.</p>
+    <p>For self-contained patching: Mimetic Digitalis by Noise Engineering (four-track sequencer, compact), Voltage Block by Malekko (eight channels of CV sequencing). For keyboard/DAW integration: a simple MIDI-to-CV module like the Doepfer A-190-3 or Hexinverter Mutant Brain.</p>
+  </section>
+
+  <section>
+    <h2>Choosing a Case and Power Supply</h2>
+    <p>Before you buy any modules, you need a powered case. The case provides the physical frame (rails for mounting) and the electrical power that every module needs. Getting this right is critical — an underpowered or noisy power supply will cause problems that are hard to diagnose later.</p>
+    <p><strong>Size:</strong> Buy a bigger case than you think you need. A 104 HP wide, 6U (two rows) case is a good starting point. You will fill it faster than you expect. Starting with a tiny 48 HP skiff almost always leads to buying a bigger case within months.</p>
+    <p><strong>Power:</strong> Check the total current draw of your planned modules (listed in milliamps on each module's spec sheet) and make sure your power supply exceeds it by at least 25% on both the +12V and -12V rails. Modules draw from both rails, and an overloaded supply causes instability and noise.</p>
+    <p><strong>Recommended cases:</strong> TipTop Audio Mantis (affordable, well-powered, 104HP x 2 rows), Arturia RackBrute 6U (good power, portable), Make Noise Skiff (if you want to start small — 104HP x 1 row).</p>
+  </section>
+
+  <section>
+    <h2>A Recommended Starter System (~$800-1200)</h2>
+    <p>Here's a practical first system that gives you a complete, playable monosynth voice with room to grow:</p>
+    <p><strong>Case:</strong> TipTop Mantis (104HP x 2 rows, ~$335)</p>
+    <p><strong>Oscillator:</strong> Plaits by Mutable Instruments (~$280) — Gives you dozens of synthesis modes in one module, so you can explore without buying multiple oscillators immediately.</p>
+    <p><strong>Filter:</strong> Ripples by Mutable Instruments (~$140) — Includes a built-in VCA, saving you a module slot and dollars in your starter system.</p>
+    <p><strong>Envelope:</strong> Doepfer A-140-1 ADSR (~$85)</p>
+    <p><strong>MIDI-to-CV:</strong> Doepfer A-190-3 (~$110) — So you can play the system from a keyboard or DAW.</p>
+    <p><strong>Cables:</strong> A set of 10-15 3.5mm patch cables in mixed lengths (~$20-40)</p>
+    <p>This gives you oscillator → filter/VCA → output, with an envelope for movement and MIDI for pitch/gate input. Total: roughly $950-990. Leaves plenty of room in the case for growth.</p>
+  </section>
+
+  <section>
+    <h2>Common Beginner Mistakes</h2>
+    <p><strong>Buying modules before understanding synthesis.</strong> If you don't know what a filter cutoff does, buying a $300 filter won't teach you. Spend time with free software synths (VCV Rack is a free, open-source virtual Eurorack environment) before investing in hardware.</p>
+    <p><strong>Too many sound sources, not enough modulation.</strong> Beginners tend to buy oscillators and effects but neglect the utilities, envelopes, LFOs, and VCAs that actually make a system musical and expressive. A single oscillator with great modulation sources is far more interesting than four oscillators with nothing to shape them.</p>
+    <p><strong>Ignoring the output stage.</strong> Your modular synth outputs a signal that's much hotter (louder) than line level. You need a way to attenuate and potentially mix that signal before it hits your mixer, audio interface, or headphones. A simple output module prevents damage and noise issues.</p>
+    <p><strong>Chasing hype.</strong> The modular community loves new, rare, and limited modules. Ignore the hype cycle. Doepfer's catalog of straightforward, affordable modules has been the backbone of countless great systems for decades. Fancy doesn't mean better.</p>
+  </section>
+
+  <section>
+    <h2>Learning Resources</h2>
+    <p><strong>ModularGrid</strong> (modulargrid.net) — Plan your rack virtually before spending any money. Enter the modules you're considering and see how they fit in your case, what the total power draw is, and what other users have paired them with.</p>
+    <p><strong>VCV Rack</strong> (vcvrack.com) — Free, open-source software that simulates Eurorack modules on your computer. Many real hardware modules have free virtual counterparts in VCV Rack. This is the single best way to learn synthesis concepts before buying hardware.</p>
+    <p><strong>Loopop and DivKid on YouTube</strong> — Both channels offer clear, detailed module reviews and patching tutorials that are valuable for beginners and experienced patchers alike.</p>
+    <p>For more modular synthesis guides, explore our <a href="https://maffermusic.com/modular/">full modular section</a>. And if you're interested in capturing your modular recordings on a physical format, check out our <a href="https://maffermusic.com/minidisc/">MiniDisc guides</a> — recording your patches to MiniDisc is a surprisingly satisfying workflow.</p>
+  </section>
+
+</article>
+
+</body>
+</html>
